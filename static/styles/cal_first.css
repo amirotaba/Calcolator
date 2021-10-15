@@ -1,0 +1,73 @@
+#dis_box{
+    min-width: 100px;
+    max-width: fit-content;
+    min-height: 60px;
+    max-height: fit-content;
+    border: 2px solid #111;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 8px;
+}
+#display{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: dimgray;
+}
+#buttons{
+    max-width: 150px;
+    max-height: 350px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #111;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-columns: 10px;*/
+    grid-gap: 5px;
+}
+#cal_buttons{
+    border: 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#cal_buttons:hover{
+    background-color: rgba(115,109,111,0.61);
+}
+#clear{
+    grid-row: span 2;
+    background: #ff3c00;
+    border: 1px black;
+    border-radius: 5px;
+}
+#clear:hover{
+    background-color: #ff0300;
+    color: white;
+}
+#zero{
+    grid-column: span 2;
+    border: 1px black;
+    border-radius: 5px;
+}
+#zero:hover{
+    background-color: rgba(115,109,111,0.61);
+}
+#eq{
+    grid-row: span 2;
+    border: 1px black;
+    border-radius: 5px;
+}
+#eq:hover{
+    background-color: rgba(115,109,111,0.61);
+}
+#dot{
+    border: 1px black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#dot:hover{
+    background-color: rgba(115,109,111,0.61);
+}
